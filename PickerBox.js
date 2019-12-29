@@ -45,7 +45,7 @@ class PickerBox extends Component {
         itemTextColor: '#757379',
         separatorColor: '#757379',
         prevTextColor: '#572580',
-        prevTextLabel: 'Cancel'
+        prevTextLabel: 'انصراف'
     }
 
     constructor(props){
@@ -173,7 +173,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingHorizontal: (width*1.2077)/100,
         paddingBottom: (height*0.6793)/100,
-        position: 'absolute'
+        position: 'absolute',
+        marginBottom:.07*Dimensions.get('window').height,
     },
     flat : {
         width: '100%',
@@ -191,7 +192,8 @@ const styles = StyleSheet.create({
     },
     text : {
         fontSize: (width*3.8647)/100,
-        lineHeight: (height*2.7174)/100
+        lineHeight: (height*2.7174)/100,
+        fontFamily:'IRANYekanMobileRegular'
     },
     boxItem : {
         width: (width*84.5411)/100,
